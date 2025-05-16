@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Project Details</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+    <div class="profile-img">
+      <img src="assets/img/code-geek-2680204_1280.png" alt="" class="img-fluid rounded-circle">
+    </div>
+
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <!-- Uncomment the line below if you also wish to use an image logo -->
+      <!-- <img src="assets/img/logo.png" alt=""> -->
+      <h1 class="sitename">Muzaffar Ragab</h1>
+    </a>
+
+    <div class="social-links text-center">
+      <a href="https://www.linkedin.com/in/mozaffer-ragab-76499822b/" class="twitter"><i class="bi bi-twitter-x"></i></a>
+      <a href="https://www.linkedin.com/in/mozaffer-ragab-76499822b/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+    </div>
+
+  
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="index.html"><i class="bi bi-house navicon"></i>Home</a></li>
+ 
+       </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Project Details</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Project Details</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+<!-- Portfolio Details Section -->
+<section id="portfolio-details" class="portfolio-details section" style="background-color: #f9f9f9; padding: 60px 0;">
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="row gy-5 align-items-start">
+
+      <!-- IMAGE SLIDER -->
+      <div class="col-lg-8">
+        <div class="portfolio-details-slider swiper init-swiper shadow-sm rounded overflow-hidden">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": { "delay": 5000 },
+              "slidesPerView": "auto",
+              "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center" id="project-images">
+            <!-- Slides are injected by JS -->
+          </div>
+          <div class="swiper-pagination mt-3"></div>
+        </div>
+      </div>
+
+      <!-- INFO PANEL -->
+      <div class="col-lg-4">
+        <div class="portfolio-info bg-white p-4 rounded shadow-sm" data-aos="fade-up" data-aos-delay="200">
+          <h3 id="project-title" class="fw-bold text-primary mb-3">Project Title</h3>
+          <ul class="list-unstyled text-sm">
+            <li class="mb-2"><strong>Category:</strong> <span id="project-category">Category</span></li>
+            <li class="mb-2"><strong>Client:</strong> <span id="project-client">Client</span></li>
+            <li class="mb-2"><strong>Project date:</strong> <span id="project-date">Date</span></li>
+            <li class="mb-2"><strong>Project URL:</strong> <a id="project-url" href="#" target="_blank" class="text-decoration-underline text-primary">URL</a></li>
+          </ul>
+        </div>
+
+        <div class="portfolio-description bg-white p-4 mt-4 rounded shadow-sm" data-aos="fade-up" data-aos-delay="300">
+          <h4 id="project-description-title" class="text-dark mb-3">Project Description</h4>
+          <p id="project-description" class="text-muted">Project description goes here.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  </main>
+
+<footer id="footer" class="footer position-relative light-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Portfolio</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="">Muzaffar Ragab</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+ <!-- DYNAMIC DATA & RENDERING SCRIPT -->
+<script>
+  const projectData = {
+    "Jayee": {
+      title: "Jayee",
+      category: "Taxi App",
+      client: "Faster",
+      date: "Sep 2024",
+      url: "#",
+      description: "Jayee is a next-gen taxi booking app with real-time driver tracking, fare estimation, and in-app payments.",
+      images: [
+        "assets/img/projects/jayee/home.jpg",
+        "assets/img/projects/jayee/add-new-order1.jpg",
+        "assets/img/projects/jayee/add-new-order2.jpg",
+        "assets/img/projects/jayee/order-details-after-pay.jpg",
+        "assets/img/projects/jayee/current-orders.jpg",
+        "assets/img/projects/jayee/cancled-orders.jpg",
+        "assets/img/projects/jayee/copouns.jpg",
+        "assets/img/projects/jayee/copouns-list.jpg",
+        "assets/img/projects/jayee/notifications.jpg",
+        "assets/img/projects/jayee/profile.jpg",
+        "assets/img/projects/jayee/add-to-wallet.jpg",
+        "assets/img/projects/jayee/wallet.jpg",
+        "assets/img/projects/jayee/select-payment-method.jpg",
+        "assets/img/projects/jayee/support.jpg",
+        "assets/img/projects/jayee/invite-friend.jpg",
+        "assets/img/projects/jayee/language.jpg",
+       ]
+    },
+    "Wathiq": {
+      title: "Wathiq",
+      category: "Grading System",
+      client: "Atwar Altahawol Technology",
+      date: "Dec 2024",
+      url: "#",
+      description: "An electronic correction system built with Flutter frontend and .NET backend, integrating OMR scanning and WhatsApp APIs, plus secure HyperPay payments.",
+      images: [
+      "assets/img/projects/wathiq/onboarding/Onboarding-1.png",
+      "assets/img/projects/wathiq/onboarding/Onboarding-2.png",
+      "assets/img/projects/wathiq/onboarding/Onboarding-3.png",
+      "assets/img/projects/wathiq/onboarding/Start.png",
+      
+      "assets/img/projects/wathiq/login/Sign in.png",
+
+      "assets/img/projects/wathiq/login/Sign in (1).png",
+      "assets/img/projects/wathiq/login/Sign up.png",
+      "assets/img/projects/wathiq/login/Sign up (1).png",
+
+      "assets/img/projects/wathiq/home/Edit Exam.png",
+"assets/img/projects/wathiq/home/Exam correction.png",
+"assets/img/projects/wathiq/home/Exam details.png",
+"assets/img/projects/wathiq/home/Home (1).png",
+"assets/img/projects/wathiq/home/Modify test criteria.png",
+"assets/img/projects/wathiq/home/Notifications.png",
+
+
+"assets/img/projects/wathiq/questions_bank/Q-Bank.png",
+"assets/img/projects/wathiq/questions_bank/Q-Bank (1).png",
+"assets/img/projects/wathiq/questions_bank/Q-Bank (2).png",
+"assets/img/projects/wathiq/questions_bank/Q-Bank (3).png",
+"assets/img/projects/wathiq/questions_bank/Q-Bank (4).png",
+"assets/img/projects/wathiq/questions_bank/Q-Bank (5).png",
+"assets/img/projects/wathiq/questions_bank/Q-Bank (6).png",
+
+"assets/img/projects/wathiq/questions_bank/Templates (1).png",
+"assets/img/projects/wathiq/questions_bank/Templates (2).png",
+"assets/img/projects/wathiq/questions_bank/Templates (3).png",
+"assets/img/projects/wathiq/questions_bank/Templates (4).png",
+"assets/img/projects/wathiq/questions_bank/Templates.png",
+
+"assets/img/projects/wathiq/add_test/Q-Bank.png",
+"assets/img/projects/wathiq/add_test/Add New Exam.png",
+"assets/img/projects/wathiq/add_test/Add New Exam (1).png",
+"assets/img/projects/wathiq/add_test/Add New Exam (2).png",
+"assets/img/projects/wathiq/add_test/Add New Exam (3).png",
+"assets/img/projects/wathiq/add_test/Add New Exam (4).png",
+"assets/img/projects/wathiq/add_test/Q-Bank (1).png",
+
+"assets/img/projects/wathiq/add/Add.png",
+"assets/img/projects/wathiq/add/Add (1).png",
+"assets/img/projects/wathiq/add/Add (2).png",
+"assets/img/projects/wathiq/add/Add (3).png",
+
+"assets/img/projects/wathiq/subject_and_units/School materials management.png",
+"assets/img/projects/wathiq/subject_and_units/School materials management (1).png",
+"assets/img/projects/wathiq/subject_and_units/Skills.png",
+"assets/img/projects/wathiq/subject_and_units/Skills (1).png",
+"assets/img/projects/wathiq/subject_and_units/Categories.png",
+"assets/img/projects/wathiq/subject_and_units/Categories (1).png",
+
+"assets/img/projects/wathiq/setting/account.png",
+"assets/img/projects/wathiq/setting/account (1).png",
+"assets/img/projects/wathiq/setting/Premium.png",
+"assets/img/projects/wathiq/setting/Premium (1).png",
+"assets/img/projects/wathiq/setting/Premium (2).png",
+"assets/img/projects/wathiq/setting/Premium (3).png",
+"assets/img/projects/wathiq/setting/Personail information.png",
+
+"assets/img/projects/wathiq/setting/FAQ.png",
+"assets/img/projects/wathiq/setting/Help Center.png",
+"assets/img/projects/wathiq/setting/Password & Security.png",
+
+"assets/img/projects/wathiq/test_resuult/Exam details.png",
+"assets/img/projects/wathiq/test_resuult/Exams.png",
+"assets/img/projects/wathiq/test_resuult/Student Reports.png",
+"assets/img/projects/wathiq/test_resuult/Exams.jpg",
+"assets/img/projects/wathiq/test_resuult/Exams (1).jpg",
+
+
+
+
+      ]
+    },
+    "dhb": {
+      title: "DHB Training & Consulting",
+      category: "Education App",
+      client: "DHB Center",
+      date: "March 2024",
+      url: "https://play.google.com/store/apps/details?id=com.dhb.center.dhb",
+      description: "An educational platform with subscriptions, modules, quizzes, and performance tracking, developed with Flutter, GetX, and MVC architecture.",
+      images: [
+        "assets/img/projects/dhb/Splash screen.png",
+        "assets/img/projects/dhb/Create new account.png",
+        "assets/img/projects/dhb/Create Account/Create new Account.png",
+        "assets/img/projects/dhb/Create Account/visit center.png",
+        "assets/img/projects/dhb/Create Account/visit center (1).png",
+        "assets/img/projects/dhb/Create Account/visit center (2).png",
+        "assets/img/projects/dhb/Create Account/OTP.png",
+        "assets/img/projects/dhb/Create Account/Add photo.png",
+        "assets/img/projects/dhb/Create Account/Agreement.png",
+        "assets/img/projects/dhb/Identity proof/Identity proof- ID.png",
+        "assets/img/projects/dhb/Identity proof/Identity proof- Drive License.png",
+        "assets/img/projects/dhb/Identity proof/Identity proof- Passport.png",
+        "assets/img/projects/dhb/Identity proof/Identity proof.png",
+        "assets/img/projects/dhb/Nebosh Exam/Registration exam- Select exam type & language.png",
+        "assets/img/projects/dhb/Nebosh Exam/Registration exam- Review data.png",
+        "assets/img/projects/dhb/Nebosh Exam/Review Form.png",
+        "assets/img/projects/dhb/Nebosh Exam/Thanks screen.png",
+        "assets/img/projects/dhb/Nebosh Exam/Thanks screen (1).png",
+        
+        "assets/img/projects/dhb/Signin/Sign in.png",
+        "assets/img/projects/dhb/Signin/forgot password.png",
+        "assets/img/projects/dhb/Signin/Reset password.png",
+        "assets/img/projects/dhb/Signin/Password changed.png",
+
+        "assets/img/projects/dhb/Toolbar Screens/Home.png",
+        "assets/img/projects/dhb/Toolbar Screens/my courses.png",
+        "assets/img/projects/dhb/Toolbar Screens/Library.png",
+        "assets/img/projects/dhb/Toolbar Screens/see all screen popular courses.png",
+        "assets/img/projects/dhb/Toolbar Screens/view course-apply.png",
+     
+      "assets/img/projects/dhb/Payment method/Subscribe- bank.png",
+      "assets/img/projects/dhb/Payment method/Subscribe- visa.png",
+      "assets/img/projects/dhb/Payment method/Subscribe- promocode.png",
+      
+
+        
+        "assets/img/projects/dhb/Purchase Course/English Test.png",
+         "assets/img/projects/dhb/Purchase Course/Pre-lectureTest.png",
+          "assets/img/projects/dhb/Purchase Course/Test-result.png",
+           "assets/img/projects/dhb/Purchase Course/Lecture.png",
+           "assets/img/projects/dhb/Profile/Profile.png",
+            "assets/img/projects/dhb/Profile/Language.png",
+                        "assets/img/projects/dhb/Profile/Complaints and Suggestions .png",
+
+
+
+
+
+        
+      
+      ]
+    },
+    "tabe3": {
+      title: "Tabe3 App",
+      category: "Educational App",
+      client: "Tabe3 Technical Solutions",
+      date: "Nov 2022",
+      url: "https://play.google.com/store/apps/details?id=com.moggal.tab3",
+      description: "A multi-dashboard school app for parents, teachers, students and admins with real-time scheduling, attendance, and performance tracking.",
+      images: [
+      "assets/img/projects/tabe3.jpg",
+      "assets/img/projects/tabe3/caht.jpg",
+      "assets/img/projects/tabe3/result.jpg",
+      "assets/img/projects/tabe3/time_table.jpg",
+      "assets/img/projects/tabe3/subject.jpg"
+      
+      ]
+    },
+    "wasilaty-clint": { 
+      title: "Wasilaty Client",
+      category: "Taxi App",
+      client: "Sammem Tech",
+      date: "Jan 2022",
+      url: "",
+      description: "Taxi booking app with real-time tracking, fare estimation, and in-app payments.",
+      images: [
+        "assets/img/projects/waseelaty_client/splash.jpg",
+        "assets/img/projects/waseelaty_client/home.jpg",
+        "assets/img/projects/waseelaty_client/trip-type.jpg",
+         "assets/img/projects/waseelaty_client/origin.jpg",
+          "assets/img/projects/waseelaty_client/route.jpg",
+           "assets/img/projects/waseelaty_client/trip-rout.jpg",
+            "assets/img/projects/waseelaty_client/trip-datails.jpg",
+             
+              "assets/img/projects/waseelaty_client/order-cancled.jpg",
+               "assets/img/projects/waseelaty_client/tickets.jpg",
+                "assets/img/projects/waseelaty_client/current-trips.jpg",
+                "assets/img/projects/waseelaty_client/current-trips (2).jpg",
+                 "assets/img/projects/waseelaty_client/wallet.jpg",
+                  "assets/img/projects/waseelaty_client/drawer.jpg",
+                   "assets/img/projects/waseelaty_client/lang.jpg",
+       
+      ]
+
+     },
+    "near-east":{
+      title: "Near East",
+      category: "Web Site",
+      client: "Near East Center-Qatar",
+      date: "Apr 2025",
+      url: "https://mozaffer249.github.io/near_east/",
+      description: "A multi-dashboard school app for parents, teachers, students and admins with real-time scheduling, attendance, and performance tracking.",
+      images: ["assets/img/projects/netco.png", "assets/img/projects/netco.png"]
+    },
+    "tabe3-technical-solutions":{
+      title: "Tabe3 Technical Solutions",
+      category: "Web Site",
+      client: "Tabe3 Technical Solutions",
+      date: "Jan 2024",
+      url: "https://tabee-edu.com/",
+      description: "A multi-dashboard school app for parents, teachers, students and admins with real-time scheduling, attendance, and performance tracking.",
+      images: ["assets/img/projects/hero-bg.jpg"]
+    },
+      
+    // add more as needed...
+  };
+
+  // read ?id= from URL
+  const params = new URLSearchParams(window.location.search);
+  const id = params.get("id");
+  const data = projectData[id] || {};
+
+  // populate fields
+  document.getElementById("project-title").textContent = data.title || "Project Not Found";
+  document.getElementById("project-category").textContent = data.category || "-";
+  document.getElementById("project-client").textContent = data.client || "-";
+  document.getElementById("project-date").textContent = data.date || "-";
+  const urlEl = document.getElementById("project-url");
+  urlEl.href = data.url || "#";
+  urlEl.textContent = data.url || "-";
+  document.getElementById("project-description-title").textContent = data.title || "";
+  document.getElementById("project-description").textContent = data.description || "No description available.";
+
+  // build slides
+  const swiperWrapper = document.getElementById("project-images");
+  swiperWrapper.innerHTML = "";
+  (data.images || []).forEach(src => {
+    const slide = document.createElement("div");
+    slide.className = "swiper-slide";
+slide.innerHTML = `<div style="text-align:center;"><img src="${src}" class="portfolio-slide-img" alt="${data.title}"></div>`;
+
+    
+    
+    swiperWrapper.appendChild(slide);
+  });
+</script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
